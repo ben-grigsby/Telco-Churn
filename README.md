@@ -60,4 +60,4 @@ Future Work.
 5.	Dynamic Feedback System
   a.	Build a pipeline to incorporate customer churn data dynamically and adjust predictions and insights over time 
 
-![image](https://github.com/user-attachments/assets/0fd1c38e-ee01-4917-8d5b-7196a1ce8cf7)
+
