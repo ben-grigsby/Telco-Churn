@@ -10,17 +10,26 @@ Objectives.
 
 Methodology.
 1.	Exploratory Data Analysis (EDA)
-  a.	Visualizations of churn rates by tenure, and monthly cost, amongst other features 
-  b.	Handling missing values and data transformations
-2.	Model Building 
-  a.	Initial Random Forest Model 
-  b.	Implementation of class balancing (e.g. ‘class_weight=balanced’)
-  c.	Resampling of data using SMOTE 
-  d.	Hyperparameter tuning using GridSearchCV
-  e.	Evaluation metrics like accuracy, recall, precision, F1-score, and ROC-AUC
-3.	Feature Importance Analysis
-  a.	Identification of the most influential features 
-  b.	Insights and recommendations based on feature importance
+
+	a.	Visualizations of churn rates by tenure, and monthly cost, amongst other features 
+
+	b.	Handling missing values and data transformations
+3.	Model Building 
+
+  	a.	Initial Random Forest Model 
+ 
+  	b.	Implementation of class balancing (e.g. ‘class_weight=balanced’)
+ 
+  	c.	Resampling of data using SMOTE 
+ 
+  	d.	Hyperparameter tuning using GridSearchCV
+ 
+  	e.	Evaluation metrics like accuracy, recall, precision, F1-score, and ROC-AUC
+4.	Feature Importance Analysis
+ 
+  	a.	Identification of the most influential features 
+
+  	b.	Insights and recommendations based on feature importance
 
 
 Key Findings.
@@ -32,32 +41,47 @@ Key Findings.
 
 How To Run The Code.
 1. Clone the repository
-   a. Start by cloning the repository to your local machine:
-       git clone https://github.com/ben-grigsby/Telco-Churn.git
-       cd project-repo-name
-2. Set up the environment
-   a. Install Python: Ensure Python (preferably 3.12.2, or higher) is installed on your machine. You can download it from https://www.python.org/
-   b. Install required libraries: use the requirements.txt file provided in the repository:
-       pip install -r requirements.txt
-3. Prepare the dataset
-   a. The initial dataset for this project is in the repository titled, 'customer_data.csv'
-4. Launch Jupyter Notebook
-   a. Open Jupyter Notebook from your terminal or command line:
-       jupyter notebook
-   b. Navigate to the final_report.ipynb notebook file and open it
+
+   	 a. Start by cloning the repository to your local machine:
+
+		git clone https://github.com/ben-grigsby/Telco-Churn.git
+		cd project-repo-name
+3. Set up the environment
+
+   	a. Install Python: Ensure Python (preferably 3.12.2, or higher) is installed on your machine. You can download it from https://www.python.org/
+
+   	b. Install required libraries: use the requirements.txt file provided in the repository:
+
+		pip install -r requirements.txt
+5. Prepare the dataset
+
+   	 a. The initial dataset for this project is in the repository titled, 'customer_data.csv'
+7. Launch Jupyter Notebook
+
+   	a. Open Jupyter Notebook from your terminal or command line:
+		jupyter notebook
+
+	b. Navigate to the final_report.ipynb notebook file and open it
 
 Future Work.
 1.	Explore Advanced Algorithms
-  a.	Implement XGBoost to evaluate its performance compared to Random Forest in predicting churn 
+
+  	a.	Implement XGBoost to evaluate its performance compared to Random Forest in predicting churn 
 2.	Simulations for Rewards Program
-  a.	Design and run simulations with realistic pricing models to test the effectiveness of the proposed rewards program 
-  b.	Continuously iterate and refine the program based on simulation results 
+
+  	a.	Design and run simulations with realistic pricing models to test the effectiveness of the proposed rewards program 
+
+  	b.	Continuously iterate and refine the program based on simulation results 
 3.	Natural Language Processing (NLP)
-  a.	If customer feedback or reviews are available, use NLP techniques to analyze text data
-  b.	Identify factors that influence customer retention and churn by extracting insights from customer sentiment and complaints 
+
+  	a.	If customer feedback or reviews are available, use NLP techniques to analyze text data
+
+  	b.	Identify factors that influence customer retention and churn by extracting insights from customer sentiment and complaints 
 4.	Incorporate More Data Sources
-  a.	Leverage external data (e.g. economic indicators, competitor analysis) to enhance model robustness and gain a more comprehensive understanding of churn drivers 
+
+  	a.	Leverage external data (e.g. economic indicators, competitor analysis) to enhance model robustness and gain a more comprehensive understanding of churn drivers 
 5.	Dynamic Feedback System
-  a.	Build a pipeline to incorporate customer churn data dynamically and adjust predictions and insights over time 
+
+  	a.	Build a pipeline to incorporate customer churn data dynamically and adjust predictions and insights over time 
 
 
